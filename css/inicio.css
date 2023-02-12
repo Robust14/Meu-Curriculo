@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+.content-inicio{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-inicio .box1{
+    width: auto;
+    height: 20rem;
+    margin: 1rem;
+}
+.box1 .cidade{
+    font-size: 2rem;
+    font-family: tahoma;
+}
+.content-inicio{
+    display: flex;
+    align-items: flex-start;
+}
+.content-inicio .box22{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-width: 40rem;
+    width: 28rem;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    background: #111;
+    text-transform: uppercase;
+    color: #aaa;
+}
+.hgroup-content1 .box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.hgroup-content2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.layer_1{
+    color: #000;
+}
+@media(max-width:915px){
+    noscript{
+        position: fixed;
+        font-size: 1.1rem;
+        top: 5.5rem;
+        z-index: 10;
+        background: rgb(250, 172, 55);
+        padding: 0.2rem;
+        color: #fff;
+    }
+    .box1 .nome{
+        font-size: 3.6rem;
+        font-family: tahoma;
+    }
+    .box1 .cidade{
+        font-size: 1.5rem;
+    }
+    .content-inicio .box22{
+        font-size: 1.5rem;
+        min-width: 10%;
+        max-width: 50rem;
+        margin-top: 1rem;
+    }
+    .hgroup-content1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .layer_1{
+        width: 20rem;
+        margin-top: 3rem;
+    }
+}

@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+.content-quemsou{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px #777;
+}
+.content-quemsou .box1{
+    width: 20rem;
+    height: 20rem;
+    background: #d81ac8;
+    background-image: url("../img/minha-img.jpg");
+    background-position: 50%;
+    filter: grayscale(40%);
+    background-size: cover;
+    margin: 1rem;
+}
+.content-quemsou .box2{
+    min-width: 50rem;
+    max-width: 110rem;
+    text-align: justify;
+    font-size: 2rem;
+    padding: 2rem;
+    background: #660e8f;
+    margin-top: 1rem;
+    color: var(--white);
+}
+.box1 h1{
+    font-size: 5rem;
+    color: #111;
+}
+.box1 p{
+    font-size: 2.5rem;
+    color: #333;
+}
+.box2 h1{
+    margin-bottom: 1rem;
+}
+
+@media(max-width:700px){
+    .content-quemsou .box2{
+        min-width: 20rem;
+        max-width: 50rem;
+    }
+    .box1 h1{
+        font-size: 4rem;
+    }
+    .box1 p{
+        font-size: 1.5rem; 
+    }
+    .box2 h1{
+        font-size: 1.6rem;
+    }
+    .box2 p{
+        font-size: 1rem;
+    }
+}
